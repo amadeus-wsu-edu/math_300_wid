@@ -92,24 +92,18 @@ x3 = A3\B3;
 
 testB = A3 * x3;
 
-x = 1:100;
-yplot1 = 1 - x;
-yplot2 = (1 - x)/2;
-yplot3 = (10 - x)/3;
+xx + yy = 1;
 
-plot(x,yplot1,x,yplot2,x,yplot3);
 
-%as seen as the plot there are no solutions for the system of linear
-%equations
 
-%% question 4x,
+%% question 4
 
 totalnum = 0;
-count2 = 0;
 count = 0;
+
 while totalnum < 20
-     count = count + 1;
-     totalnum = totalnum + rand();
+    count = count + 1;
+    totalnum = totalnum + rand();
 end
 
 disp(count);

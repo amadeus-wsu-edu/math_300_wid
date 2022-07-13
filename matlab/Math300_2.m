@@ -82,3 +82,20 @@ while failed
     end
 end
 disp(numoftries);
+
+%% 12 jul
+
+l = 10;
+N = 10;
+
+h = l/N;
+
+f(1) = 0;
+
+for n = 1:N
+    f(n+1) = f(n)+ h*(n^2 + n + 1);
+end
+
+x = linspace(0,l,N+1);
+plot(x,f);
+
