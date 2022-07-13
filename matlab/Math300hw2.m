@@ -116,8 +116,8 @@ disp(count);
 
 %% question 5
 
-%t = 0:0.1:pi;
-t = 1:1000;
+t = 0:0.001:2*pi;
+%t = 1:1000;
 
 xplot = 1 + cos(2*t);
 yplot = -1 + 3*sin(4*t);
