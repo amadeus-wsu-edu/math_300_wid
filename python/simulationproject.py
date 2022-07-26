@@ -143,6 +143,7 @@ print(plist1)
 ev1 = newexpectedvalue(plist1, evlist)
 print(ev1)
 
+
 #case2revealed = loopsim2(100000, 9, slist1, 3, 2)
 #print(case2revealed)
 #[100000, 100000, 99059, 89328, 59138, 21987, 3427, 138, 0]
